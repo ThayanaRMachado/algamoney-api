@@ -1,1 +1,1 @@
-web: java –Dserver.port=$PORT –Dspring.profiles.active=prod $JAVA_OPTS –jar target/algamoney-api3-1.0.0-SNAPSHOT.jar
+web: java –Dserver.port=$PORT –Dspring.profiles.active=prod, oauth-security $JAVA_OPTS –jar target/algamoney-api3-1.0.0-SNAPSHOT.jar
